@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/tvSaludo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenid@ "
+        android:textSize="25sp"
+        android:textAlignment="center"
+        />
+    
+    <EditText
+        android:id="@+id/etMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mensaje"
+        android:inputType="textMultiLine"
+        />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        />
+
+</LinearLayout>
